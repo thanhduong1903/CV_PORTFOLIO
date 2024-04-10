@@ -1,0 +1,50 @@
+/* Responsive  nav*/
+@media only screen and (max-width: 1124px) {
+  .nav-bar{
+   max-width: 1200px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0px 20px;
+  }
+  
+  .nav-logo .logo-text{
+   font-family: helpme;
+   font-size: 30px;
+   cursor: pointer;
+  }
+ }
+ 
+ @media only screen and (max-width: 1024px) {
+  .nav-bar{
+   max-width: 1000px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0px 10px;  
+  }
+  .nav-link{
+   font-size: 18px;
+  }
+  
+  .nav-logo .logo-text{
+   font-family: helpme;
+   font-size: 25px;
+   cursor: pointer;
+  }
+ }
+ 
+ @media only screen and (max-width: 720px) {
+  .nav-bar{  
+   display: none;
+  }
+  .nav-mini{
+   display: flex;
+  }
+  .clsShowHide{
+   display: flex;
+  }
+ }
+ /* End responsive  nav */

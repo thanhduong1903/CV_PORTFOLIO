@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="queriesmedia.css" asp-append-version="true" />
+</head>
+<body>
+    <header class="container">
+        <nav class="nav-bar">
+            <div class="nav-logo">
+                <p class="logo-text">Matthew</p>
+            </div>
+            <ul class="nav-link">
+                <li class="link"><a href="#education">Education</a></li>
+                <li class="link"><a href="#experience">Experience</a></li>
+                <li class="link"><a href="#skills">Skills</a></li>
+                <li class="link"><a href="#project">Projects</a></li>
+            </ul>
+            <div class="nav-button">Hiring me</div>
+        </nav>
+
+        
+        <nav class="nav-mini">
+            <div class="mini-logo">
+                <p class="mini-text">Matthew</p>
+            </div>
+            <div class="clsShowHide" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <div class="mini-link">
+            <li class="m-link"><a onclick="toggleMenu()" href="#about">About me</a></li>
+            <li class="m-link"><a onclick="toggleMenu()" href="#experience">Experience</a></li>
+            <li class="m-link"><a onclick="toggleMenu()" href="#skills">Skills</a></li>
+            <li class="m-link"><a onclick="toggleMenu()" href="#project">Projects</a></li>
+            <li class="m-link"><a onclick="toggleMenu()" href="#hiring">Hiring us</a></li>
+        </div>
+    </header>
+    <div class="container">
+     <section class="top-side">
+      <div class="top-side-image">
+          <img src="/images/img1.png">
+      </div>
+      <div class="top-side-content">
+          <h1>Xin chào! Tôi là Lý Thanh Dương</h1>
+          <p>Mục tiêu nghề nghiệp của tôi là luôn nghiên cứu, áp dụng kinh nghiệm, kỹ năng vào xây dựng, phát triển bài giảng điện tử ở một tầm cao mới và bắt kịp các xu hướng đào tạo hiện nay để xây dựng bài giảng có tính thực tế, giúp người học dễ nắm bắt dễ hiểu, kết hợp tương tác để cho người học có hứng thú hơn với việc học tập</p>
+      </div>
+     </section>
+     
+     <section class="education" id="education">
+      <h1 class="section-title">EDUCATION</h1>
+      <div class="education-content">
+          <div class="education-text">
+              <div class="education-descript">
+                  <h1>2023 - 2024 | Trường Đại học Công nghệ Thông tin - Đại học Quốc gia TP.HCM</h1>
+                  <p>Chuyên Ngành: Khoa Học Dữ Liệu</p>
+                  <p>Hệ: Liên thông Đại học</p>
+                  <p>Trạng thái: Đang theo học</p>
+              </div>
+     
+              <div class="education-descript">
+                  <h1>2020 - 2022 | Trường Đại học Sư phạm Kỹ thuật Vĩnh Long</h1>
+                  <p>Chuyên Ngành: Công nghệ thông tin</p>
+                  <p>Hệ: Liên thông Cao đẳng</p>
+                  <p>Trạng thái: Tốt nghiệp - Xếp loại giỏi</p>
+              </div>
+     
+              <div class="education-descript">
+                  <h1>2016 - 2019 | Trường Cao đẳng Kinh tế - Kỹ thuật TP.HCM</h1>
+                  <p>Chuyên Ngành: Tin học ứng dụng</p>
+                  <p>Hệ: Liên thông Cao đẳng</p>
+                  <p>Trạng thái: Tốt nghiệp - Xếp loại giỏi</p>
+              </div>
+          </div>
+          <div class="education-image">
+              <img src="/images/img2.png">
+          </div>        
+      </div>
+     </section>
+     
+     <section class="experience" id="experience">
+      <h1 class="section-title">MY EXPERIENCE</h1>
+      <div class="experience-content">
+          <div class="year">2024</div>
+          <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>  
+         
+      </div>
+     </section>
+     
+     <section class="skills" id="skills">
+      <h1 class="section-title">SKILLS</h1>    
+      <div class="skills-content">
+          <div class="left-content">
+              <div class="skill-row">
+                  <div class="skill-icon"><i class="fa-solid fa-gear"></i></div>
+                  <div class="skill-frame">
+                      <div class="skill-name">HTML5</div>
+                      <div class="skill-progress">
+                          <div class="progress-percent"></div>
+                      </div>
+                  </div>
+              </div>
+     
+              <div class="skill-row">
+                  <div class="skill-icon"><i class="fa-solid fa-gear"></i></div>
+                  <div class="skill-frame">
+                      <div class="skill-name">CSS3</div>
+                      <div class="skill-progress">
+                          <div class="progress-percent"></div>
+                      </div>
+                  </div>
+              </div>
+     
+              <div class="skill-row">
+                  <div class="skill-icon"><i class="fa-solid fa-gear"></i></div>
+                  <div class="skill-frame">
+                      <div class="skill-name">Javascript</div>
+                      <div class="skill-progress">
+                          <div class="progress-percent"></div>
+                      </div>
+                  </div>
+              </div>
+     
+              <div class="skill-row">
+                  <div class="skill-icon"><i class="fa-solid fa-gear"></i></div>
+                  <div class="skill-frame">
+                      <div class="skill-name">Adobe Photoshop</div>
+                      <div class="skill-progress">
+                          <div class="progress-percent"></div>
+                      </div>
+                  </div>
+              </div>
+     
+              <div class="skill-row">
+                  <div class="skill-icon"><i class="fa-solid fa-gear"></i></div>
+                  <div class="skill-frame">
+                      <div class="skill-name">Adobe Illustrator</div>
+                      <div class="skill-progress">
+                          <div class="progress-percent"></div>
+                      </div>
+                  </div>
+              </div>
+     
+              <div class="skill-row">
+                  <div class="skill-icon"><i class="fa-solid fa-gear"></i></div>
+                  <div class="skill-frame">
+                      <div class="skill-name">Adobe Captivate</div>
+                      <div class="skill-progress">
+                          <div class="progress-percent"></div>
+                      </div>
+                  </div>
+              </div>
+     
+              <div class="skill-row">
+                  <div class="skill-icon"><i class="fa-solid fa-gear"></i></div>
+                  <div class="skill-frame">
+                      <div class="skill-name">Adobe Premiere</div>
+                      <div class="skill-progress">
+                          <div class="progress-percent"></div>
+                      </div>
+                  </div>
+              </div>
+     
+              <div class="skill-row">
+                  <div class="skill-icon"><i class="fa-solid fa-gear"></i></div>
+                  <div class="skill-frame">
+                      <div class="skill-name">Articulate Storyline</div>
+                      <div class="skill-progress">
+                          <div class="progress-percent"></div>
+                      </div>
+                  </div>
+              </div>
+     
+              <div class="skill-row">
+                  <div class="skill-icon"><i class="fa-solid fa-gear"></i></div>
+                  <div class="skill-frame">
+                      <div class="skill-name">Kỹ năng làm việc nhóm</div>
+                      <div class="skill-progress">
+                          <div class="progress-percent"></div>
+                      </div>
+                  </div>
+              </div>
+     
+     
+              <div class="skill-row">
+                  <div class="skill-icon"><i class="fa-solid fa-gear"></i></div>
+                  <div class="skill-frame">
+                      <div class="skill-name">Kỹ năng giao tiếp</div>
+                      <div class="skill-progress">
+                          <div class="progress-percent"></div>
+                      </div>
+                  </div>
+              </div>
+     
+              <div class="skill-row">
+                  <div class="skill-icon"><i class="fa-solid fa-gear"></i></div>
+                  <div class="skill-frame">
+                      <div class="skill-name">Kỹ năng lắng nghe</div>
+                      <div class="skill-progress">
+                          <div class="progress-percent"></div>
+                      </div>
+                  </div>
+              </div>
+     
+              <div class="skill-row">
+                  <div class="skill-icon"><i class="fa-solid fa-gear"></i></div>
+                  <div class="skill-frame">
+                      <div class="skill-name">Kỹ năng thuyết trình</div>
+                      <div class="skill-progress">
+                          <div class="progress-percent"></div>
+                      </div>
+                  </div>
+              </div>
+     
+              <div class="skill-row">
+                  <div class="skill-icon"><i class="fa-solid fa-gear"></i></div>
+                  <div class="skill-frame">
+                      <div class="skill-name">Kỹ năng lãnh đạo</div>
+                      <div class="skill-progress">
+                          <div class="progress-percent"></div>
+                      </div>
+                  </div>
+              </div>
+     
+          </div>
+     
+          <div class="right-content">
+              <img src="/images/img3.png">
+          </div>
+      </div>
+     </section>
+     
+     <section class="project" id="project">
+      <h1 class="section-title">PROJECTS</h1>    
+     </section>
+    </div>   
+
+    <footer>
+        
+    </footer>
+    <script src="handle.js" asp-append-version="true"></script>
+    <script src="https://kit.fontawesome.com/16707960cf.js" rossorigin="anonymous"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
