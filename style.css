@@ -166,7 +166,11 @@ html {
 	box-shadow: 3px 3px 0px var(--black);
 }
 
-.nav-button{
+/* .nav-button{
+	
+} */
+.nav-button a{
+	text-decoration: none;	
 	padding: .5rem var(--1rem);
 	border: 1px solid var(--black);
 	transition: all .25s linear;
@@ -178,11 +182,12 @@ html {
 	background-color: var(--black);
 }
 
-.nav-button:hover{
+.nav-button a:hover{
 	color: var(--black);
 	background-color: var(--white);
 	box-shadow: 3px 3px 0px var(--black);
 }
+
 
 .nav-mini{
 	display: flex;
@@ -369,13 +374,25 @@ html {
 
 .experience-content .year{
 	display: flex;
+	flex-direction: column;
 	background-color: var(--black);
 	color: var(--white);
 	justify-content: center;
 	align-items: center;
 	font-weight: 800;
-	font-size: var(--4rem);
+	
 	margin: var(--1rem) 0rem;
+}
+
+.year-choosen{
+	font-size: var(--3rem);
+	margin: 0px 20px;
+	cursor: pointer;
+	transition: all .25s linear;
+}
+
+.year-choosen:hover{
+	color: aquamarine;
 }
 
 .experience-content .content{
@@ -442,4 +459,83 @@ html {
 
 .right-content img{
 	max-width: 700px;
+}
+
+/* PROJECT */
+.project{
+	max-width: 1300px;
+	margin: auto;
+	margin-top: var(--4rem);
+	margin-bottom: var(--2rem);
+	/* background-color: var(--black); */
+}
+
+.project-list{
+	display: grid;
+	grid-template-columns: repeat(4,2fr);
+}
+.project-list .project-card{
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	border: 2px solid var(--black);
+	border-radius: 5px;
+	margin-top: var(--2rem);
+}
+
+.project-card .project-name{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	padding: var(--1rem) 0px;
+	border-bottom: 2px dashed var(--black) ;
+	margin: 5px;
+}
+
+.project-card .card-body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.project-card .card-body img{
+	max-width: 200px;
+}
+
+.project-card .card-footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 2px dashed var(--black) ;
+	margin: 5px;
+	/* background-color: var(--black); */
+}
+
+.project-card .card-footer a{
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 35px;
+	border: 1px solid;
+	margin: var(--1rem);
+	color: var(--white);
+	background-color: var(--black);
+	transition: all .25s linear;
+}
+
+.project-card .card-footer a:hover{
+	color: var(--black);
+	background-color: var(--white);
+	box-shadow: 2px 2px 0px var(--black);
+}
+.hiring{
+	max-width: 1300px;
+	margin: auto;
+	margin-top: var(--4rem);
+	margin-bottom: var(--2rem);
+	background-color: var(--black);
+	color: var(--white);
+}
+footer p{
+	text-align: center;
 }
