@@ -9,16 +9,17 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
 <body>
+    <!-- Header -->
     <header class="container">
         <nav class="nav-bar">
             <div class="nav-logo">
                 <p class="logo-text">Matthew</p>
             </div>
             <ul class="nav-link">
-                <li class="link"><a href="#education">Education</a></li>
-                <li class="link"><a href="#experience">Experience</a></li>
-                <li class="link"><a href="#skills">Skills</a></li>
-                <li class="link"><a href="#project">Projects</a></li>
+                <li class="link"><a href="#education">Học Vấn</a></li>
+                <li class="link"><a href="#experience">Kinh Nghiệm</a></li>
+                <li class="link"><a href="#skills">Kỹ Năng</a></li>
+                <li class="link"><a href="#project">Dự Án</a></li>
             </ul>
             <div class="nav-button"><a href="#hiring">Hiring me</a></div>
         </nav>
@@ -27,17 +28,17 @@
             <div class="mini-logo">
                 <p class="mini-text">Matthew</p>
             </div>
-            <div class="clsShowHide" onclick="toggleMenu()">
+            <div class="clsShowHide">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
         </nav>
         <div class="mini-link">
-            <li class="m-link"><a onclick="toggleMenu()" href="#about">About me</a></li>
-            <li class="m-link"><a onclick="toggleMenu()" href="#experience">Experience</a></li>
-            <li class="m-link"><a onclick="toggleMenu()" href="#skills">Skills</a></li>
-            <li class="m-link"><a onclick="toggleMenu()" href="#project">Projects</a></li>
+            <li class="m-link"><a onclick="toggleMenu()" href="#about">Học Vấn</a></li>
+            <li class="m-link"><a onclick="toggleMenu()" href="#experience">Kinh Nghiệm</a></li>
+            <li class="m-link"><a onclick="toggleMenu()" href="#skills">Kỹ Năng</a></li>
+            <li class="m-link"><a onclick="toggleMenu()" href="#project">Dự Án</a></li>
             <li class="m-link"><a onclick="toggleMenu()" href="#hiring">Hiring me</a></li>
         </div>
     </header>
@@ -55,7 +56,7 @@
 
         <!-- EDUCATION -->
         <section class="education" id="education">
-            <h1 class="section-title">EDUCATION</h1>
+            <h1 class="section-title">HỌC VẤN</h1>
             <div class="education-content">
                 <div class="education-text">
                     <div class="education-descript">
@@ -87,26 +88,28 @@
         
         <!-- EXPERIENCE -->
         <section class="experience" id="experience">
-            <h1 class="section-title">MY EXPERIENCE</h1>
+            <h1 class="section-title">KINH NGHIỆM</h1>
             <div class="experience-content">
                 <div class="year">
                     <div class="frame">
-                        <span class="year-choosen" id="year-21">2021</span>
-                        <span class="year-choosen" id="year-22">2022</span>
-                        <span class="year-choosen" id="year-23">2023</span>
-                        <span class="year-choosen" id="year-24">2024</span>
+                        <span class="year-choosen" id="year-20">2020 - 2021</span>
+                        <span class="year-choosen" id="year-21">2021 - 2022</span>
+                        <span class="year-choosen" id="year-22">2023 - Đến nay</span>                        
                     </div>
                     <p>Bấm vào từng năm để xem</p>
                 </div>
                 <div class="content" id="content">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, similique alias a odio corrupti quia neque animi voluptatum eaque ab provident culpa velit pariatur necessitatibus fugiat assumenda vitae, voluptatibus in.
+                  <h4 class="ex-title" id="ex-title"></h4>
+                  <div class="details">
+                    
+                  </div>                      
                 </div>                 
             </div>
         </section>
         
         <!-- SKILLS -->
         <section class="skills" id="skills">
-            <h1 class="section-title">SKILLS</h1>    
+            <h1 class="section-title">KỸ NĂNG</h1>    
             <div class="skills-content">
                 <div class="left-content">
                     <div class="skill-row">
@@ -249,7 +252,7 @@
         </section>   
         <!-- PROJECTS -->
         <section class="project" id="project">
-            <h1 class="section-title">PROJECTS</h1> 
+            <h1 class="section-title">DỰ ÁN</h1> 
             <div class="project-list">
                 <div class="project-card">
                     <div class="card-header">
@@ -396,7 +399,8 @@
     <footer class="container">
         <p>	&copy;create by me Ly Thanh Duong</p>
     </footer>
-    <script src="handle.js" asp-append-version="true"></script>
+    <script src="jQuery.js"></script>
+    <script src="handle.js"></script>    
     <script src="https://kit.fontawesome.com/16707960cf.js" rossorigin="anonymous"></script>
 
 </body>

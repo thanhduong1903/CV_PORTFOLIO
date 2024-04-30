@@ -379,8 +379,7 @@ html {
 	color: var(--white);
 	justify-content: center;
 	align-items: center;
-	font-weight: 800;
-	
+	font-weight: 800;	
 	margin: var(--1rem) 0rem;
 }
 
@@ -389,16 +388,21 @@ html {
 	margin: 0px 20px;
 	cursor: pointer;
 	transition: all .25s linear;
+	font-size: 25px;
 }
 
 .year-choosen:hover{
 	color: aquamarine;
 }
 
+.year p{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 .experience-content .content{
 	text-align: justify;
 	padding: var(--1rem);
-	font-size: 25px;
+	font-size: 20px;
 }
 
 /* SKILLS */
